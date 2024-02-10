@@ -1,0 +1,9 @@
+f1=open("data.txt")
+data=f1.read()
+f1.close()
+f2=open("revData.txt","w+")
+newData=[*data]
+newData.reverse()
+f2.write(''.join(newData))
+f2.seek(0)
+print(f2.read())

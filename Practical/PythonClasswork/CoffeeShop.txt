@@ -1,0 +1,8 @@
+Title: "BeanTrack: Intelligent Café Management"
+
+Description: "BeanTrack revolutionizes coffee shop management with computer vision to track customer preferences and ML algorithms to identify high and low-value customers.
+ Optimize marketing by targeting specific demographics, enhancing customer experience, and maximizing revenue."
+
+
+Theme:
+    Business Optimization and Customer Experience Enhancement.
