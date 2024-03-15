@@ -3,9 +3,17 @@ class Demo:
         if(len(vargs)==0):
             print("Test with zero parameter.")
         elif(len(vargs)==1):
-            print("Test with one parameter.")
+            if(isinstance(vargs[0],int)):
+                print("Integer:",vargs[0])
+            elif(isinstance(vargs[0],float)):
+                print("Float:",vargs[0])
+            else:
+                pass
         elif(len(vargs)==2):
-            print("Test with two parameter.")
+            if(isinstance(vargs[0],int) and isinstance(vargs[1],int)):
+                print("Two integer {0} and {1}".format(vargs[0],vargs[1]))
+            else:
+                print("Provide two integer!!!")
         else:
             pass
     
